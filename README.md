@@ -4,5 +4,5 @@
 
 In your file you can do this:
 
-    require 'hostcheck.php';
+    require 'host-check/hostcheck.php';
     hostcheck(array('http://domain.com/', '...'));

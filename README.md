@@ -1,10 +1,8 @@
 # Usage
 
-git clone https://github.com/hut6/host-check.git
+`git clone https://github.com/hut6/host-check.git`
 
-`
-require 'hostcheck.php';
+In your file you can do this:
 
-hostcheck(array('http://domain.com/', '...'));
-
-`
+    require 'hostcheck.php';
+    hostcheck(array('http://domain.com/', '...'));
